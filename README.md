@@ -15,6 +15,18 @@ O foco do projeto será implementar um controle de versão eficiente, que atenda
 </ul>
 
 <hr/>
+Estratégias de desenvolvimento do trabalho: 
+<br/>
+<br/>
+<ul>
+  <li>O trabalho foi realizado de forma individual;</li>
+  <li>Como o foco da disciplina são as boas práticas do git e github, não me importei com o desenvolvimento de código;</li>
+  <li>Nesse trabalho utilizei de commits, pull requests, merges, branchs, tags e releases. Também, utilizei a parte de issues para a organização das atividades a serem realizadas;</li>
+  <li>Para poder utilizar todas essas funcionalidades sem o desenvolvimento de um código, usei o próprio README para registrar alterações. Cada atualização em um requisito da atividade contém uma branch específica usada para o desenvolvimento e, consequentemente, uma release. É possível ver o README ser atualizado a cada branch e release. Tratei cada adição de requisitos como se fosse uma nova funcionalidade, por isso o MINOR das tags e releases é atualizado. Tratei cada ajuste de formatação no texto como se fosse um bug, por isso o PATCH é atualizado.</li>
+</ul>
+
+
+<hr/>
 Estórias de usuário: 
 <br/>
 <br/>
