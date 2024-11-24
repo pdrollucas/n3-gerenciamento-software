@@ -1,96 +1,95 @@
-# n3-gerenciamento-software
-Curso: Engenharia de Software <br/>
-Disciplina: Gerenciamento, configuração e processos de software <br/>
-Professor: Ricardo <br/>
-Aluno: Pedro Lucas Luckow <br/>
+# N3 - Gerenciamento de Software
 
-O foco do projeto será implementar um controle de versão eficiente, que atenda as normas de gestão de configuração da MPS-BR.
-<ul>
-  <li>Crie um repositório no github;</li>
-  <li>Crie as estórias de usuário;</li>
-  <li>Defina seu fluxo de trabalho no git;</li>
-  <li>Crie um .gitignore;</li>
-  <li>Defina os itens de configuração;</li>
-  <li>Defina uma estratégia para tags e liberação de releases.</li>
-</ul>
+**Curso**: Engenharia de Software  
+**Disciplina**: Gerenciamento, Configuração e Processos de Software  
+**Professor**: Ricardo  
+**Aluno**: Pedro Lucas Luckow  
 
-<hr/>
-Estratégias de desenvolvimento do trabalho: 
-<br/>
-<br/>
-<ul>
-  <li>O trabalho foi realizado de forma individual;</li>
-  <li>Como o foco da disciplina são as boas práticas do git e github, não me importei com o desenvolvimento de código;</li>
-  <li>Nesse trabalho utilizei de commits, pull requests, merges, branchs, tags e releases. Também, utilizei a parte de issues para a organização das atividades a serem realizadas;</li>
-  <li>Para poder utilizar todas essas funcionalidades sem o desenvolvimento de um código, usei o próprio README para registrar alterações. Cada atualização em um requisito da atividade contém uma branch específica usada para o desenvolvimento e, consequentemente, uma release. É possível ver o README ser atualizado a cada branch e release. Tratei cada adição de requisitos como se fosse uma nova funcionalidade, por isso o MINOR das tags e releases é atualizado. Tratei cada ajuste de formatação no texto como se fosse um bug, por isso o PATCH é atualizado.</li>
-</ul>
+---
 
+## Objetivo do Projeto
 
-<hr/>
-Estórias de usuário: 
-<br/>
-<br/>
-<ul>
-  <li>Como um administrador de configuração, eu quero configurar o repositório no GitHub, para que as alterações sejam rastreadas e versionadas adequadamente.<br/></li>
-  <li>Como um desenvolvedor, eu quero utilizar um fluxo de trabalho padronizado no Git, para que o desenvolvimento seja organizado e as entregas controladas.</li>
-  <li>Como um gestor, eu quero criar releases versionadas, para que o histórico de versões esteja alinhado às entregas do projeto.</li>
-</ul>
+Implementar um controle de versão eficiente, alinhado às normas de gestão de configuração da MPS-BR.
 
-<hr/>
-Fluxo de trabalho no git
-<br/>
-<br/>
-As branchs estão organizadas da seguinte forma:
-<br/>
-<br/>
-<ul>
-  <li>Main: branch principal, contendo o código estável e liberado</li>
-  <li>Develop: branch utilizada como referência para o desenvolvimento de novas funcionalidades ou ajustes</li>
-  <li>Features/adicao-{descricao da nova funcionalidade}: branchs responsáveis pela adição de novas funcionalidades</li>
-  <li>Fix/{local ajustado}: branchs utilizadas para a correção de defeitos</li>
-</ul>
+---
 
-Importante: as branchs de features e de fix sempre terão como referência a branch de develop, assim que tiverem resolvidas deverão realizar a pull request e depois o merge. A branch de main só puxará de develop quando esta estiver devidamente estável e liberada. Além disso, os commits realizados nas branchs de features e de fix deverão ser claros, consisos e consistentes. Antes de cada merge, haverá uma pull request responsável em garantir a revisão do código.
+## Requisitos do Trabalho
 
-<hr/>
-Itens de configuração
-<br/>
-<br/>
-Simulando um cenário em que seria utilizado vue, node, c# e sql para o desenvolvimento do projeto...
-<br/>
-<br/>
-<ol>
-  <li>
-    Vue.JS e Node.js:
-    <ul>
-      <li>Código-fonte: <code>src/</code>, <code>public/</code></li>
-      <li>Configurações: <code>package.json</code>, <code>*config.js</code>, <code>.env.example</code></li>
-    </ul>
-  </li>
-  <li>
-    C#:
-    <ul>
-      <li>Código-fonte: <code>*.cs</code>, <code>*.csproj</code>, <code>*.sln</code></li>
-      <li>Configurações: <code>appsettings.json</code></li>
-    </ul>
-  </li>
-  <li>
-    SQL:
-    <ul>
-      <li>Scripts: <code>/migrations/</code>, <code>/seeds/</code>, <code>schema.sql</code></li>
-    </ul>
-  </li>
-</ol>
+1. Crie um repositório no GitHub.  
+2. Crie as estórias de usuário.  
+3. Defina seu fluxo de trabalho no Git.  
+4. Crie um arquivo `.gitignore`.  
+5. Defina os itens de configuração.  
+6. Estabeleça uma estratégia para tags e liberação de releases.  
 
-<hr/>
-Estratégia para tags e liberação de releases:
-<br/>
-<br/>
-Para esse projeto foi adotado um versionamento semântico (SemVer), com o formato MAJOR.MINOR.PATCH:
-<ul>
-  <li>MAJOR: alterações incompátiveis que quebrarão a API</li>
-  <li>MINOR: novas funcionalidades compátiveis foram adicionadas</li>
-  <li>PATCH: correções de bugs e pequenas melhorias</li>
-</ul>
-Exemplo: uma versão 1.0.0 terá o MAJOR como 1, o MINOR como 0 e o PATCH como 0. Uma versão 1.1.0, terá uma nova funcionalidade compátivel. Uma vesão 1.1.1, terá uma nova funcionalidde compátivel e uma correção de um bug ou pequena melhoria. <br/><br/>
-Caso queira se aprofundar, essa foi a referência utilizada: <a href="https://www.devdofuturo.com/versionamento-semantico-o-que-e-e-como-aplicar">www.devdofuturo.com/versionamento-semantico-o-que-e-e-como-aplicar</a>
+---
+
+## Estratégias de Desenvolvimento
+
+- O trabalho foi realizado de forma individual.  
+- Como o foco da disciplina são as boas práticas do Git e GitHub, não me importei com o desenvolvimento de código.  
+- Nesse trabalho, utilizei commits, pull requests, merges, branches, tags e releases. Também utilizei a parte de issues para a organização das atividades a serem realizadas.  
+- Para poder utilizar todas essas funcionalidades sem o desenvolvimento de um código, **usei o próprio README** para registrar alterações. Cada atualização em um requisito da atividade contém uma branch específica usada para o desenvolvimento e, consequentemente, uma release. É possível ver o README ser atualizado a cada branch e release. Tratei cada adição de requisitos como se fosse uma nova funcionalidade, por isso o **MINOR** das tags e releases é atualizado. Tratei cada ajuste de formatação no texto como se fosse um bug, por isso o **PATCH** é atualizado. Caso uma alteração envolvesse mais de uma seção e incluísse uma reformulação completa da formatação do texto, ela seria tratada como uma alteração de **MAJOR**.
+
+---
+
+## Estórias de Usuário
+
+1. **Administrador de Configuração**:  
+   _"Como administrador de configuração, quero configurar o repositório no GitHub para que as alterações sejam rastreadas e versionadas adequadamente."_  
+2. **Desenvolvedor**:  
+   _"Como desenvolvedor, quero utilizar um fluxo de trabalho padronizado no Git, para que o desenvolvimento seja organizado e as entregas controladas."_  
+3. **Gestor**:  
+   _"Como gestor, quero criar releases versionadas, para que o histórico de versões esteja alinhado às entregas do projeto."_
+
+---
+
+## Fluxo de Trabalho no Git
+
+As branches seguem a seguinte organização:
+
+- **Main**: branch principal, contendo o código estável e liberado.  
+- **Develop**: branch utilizada como referência para o desenvolvimento de novas funcionalidades ou ajustes.  
+- **Features/adicao-{descricao-da-nova-funcionalidade}**: branch para adicionar novas funcionalidades.  
+- **Fix/{local-ajustado}**: branch para correção de defeitos.  
+
+### Regras
+
+- Branches **features** e **fix** derivam da branch `develop` e, após concluídas, passam por _pull requests_ antes de serem mescladas.  
+- Alterações na branch `develop` só serão promovidas para a branch `main` após estabilidade e liberação.  
+- Commits devem ser **claros**, **concisos** e **consistentes**.  
+
+---
+
+## Itens de Configuração
+
+O projeto simula o uso de **Vue.js**, **Node.js**, **C#** e **SQL**. Os itens de configuração estão organizados da seguinte forma:
+
+1. **Vue.js e Node.js**:  
+   - **Código-fonte**: `src/`, `public/`  
+   - **Configurações**: `package.json`, `*config.js`, `.env.example`  
+2. **C#**:  
+   - **Código-fonte**: `*.cs`, `*.csproj`, `*.sln`  
+   - **Configurações**: `appsettings.json`  
+3. **SQL**:  
+   - **Scripts**: `/migrations/`, `/seeds/`, `schema.sql`  
+
+---
+
+## Estratégia para Tags e Liberação de Releases
+
+O projeto adota o **Versionamento Semântico (SemVer)** no formato `MAJOR.MINOR.PATCH`.  
+
+### Regras
+
+- **MAJOR**: alterações incompatíveis que quebram a API.  
+- **MINOR**: adição de novas funcionalidades compatíveis.  
+- **PATCH**: correções de bugs e melhorias menores.  
+
+### Exemplos de Versionamento
+
+- `1.0.0`: primeira versão estável.  
+- `1.1.0`: adição de nova funcionalidade compatível.  
+- `1.1.1`: correção de bug ou melhoria menor na funcionalidade existente.  
+
+Referência: [Versionamento Semântico - Dev do Futuro](https://www.devdofuturo.com/versionamento-semantico-o-que-e-e-como-aplicar)
