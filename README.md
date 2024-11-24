@@ -39,3 +39,33 @@ As branchs estão organizadas da seguinte forma:
 </ul>
 
 Importante: as branchs de features e de fix sempre terão como referência a branch de develop, assim que tiverem resolvidas deverão realizar a pull request e depois o merge. A branch de main só puxará de develop quando esta estiver devidamente estável e liberada. Além disso, os commits realizados nas branchs de features e de fix deverão ser claros, consisos e consistentes. Antes de cada merge, haverá uma pull request responsável em garantir a revisão do código.
+
+<hr/>
+Itens de configuração
+<br/>
+<br/>
+Simulando um cenário em que seria utilizado vue, node, c# e sql para o desenvolvimento do projeto...
+<br/>
+<br/>
+<ol>
+  <li>
+    Vue.JS e Node.js:
+    <ul>
+      <li>Código-fonte: <code>src/</code>, <code>public/</code></li>
+      <li>Configurações: <code>package.json</code>, <code>*config.js</code>, <code>.env.example</code></li>
+    </ul>
+  </li>
+  <li>
+    C#:
+    <ul>
+      <li>Código-fonte: <code>*.cs</code>, <code>*.csproj</code>, <code>*.sln</code></li>
+      <li>Configurações: <code>appsettings.json</code></li>
+    </ul>
+  </li>
+  <li>
+    SQL:
+    <ul>
+      <li>Scripts: <code>/migrations/</code>, <code>/seeds/</code>, <code>schema.sql</code></li>
+    </ul>
+  </li>
+</ol>
