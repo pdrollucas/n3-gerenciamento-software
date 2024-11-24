@@ -69,3 +69,16 @@ Simulando um cenário em que seria utilizado vue, node, c# e sql para o desenvol
     </ul>
   </li>
 </ol>
+
+<hr/>
+Estratégia para tags e liberação de releases:
+<br/>
+<br/>
+Para esse projeto foi adotado um versionamento semântico (SemVer), com o formato MAJOR.MINOR.PATCH:
+<ul>
+  <li>MAJOR: alterações incompátiveis que quebrarão a API</li>
+  <li>MINOR: novas funcionalidades compátiveis foram adicionadas</li>
+  <li>PATCH: correções de bugs e pequenas melhorias</li>
+</ul>
+Exemplo: uma versão 1.0.0 terá o MAJOR como 1, o MINOR como 0 e o PATCH como 0. Uma versão 1.1.0, terá uma nova funcionalidade compátivel. Uma vesão 1.1.1, terá uma nova funcionalidde compátivel e uma correção de um bug ou pequena melhoria. <br/><br/>
+Caso queira se aprofundar, essa foi a referência utilizada: <a href="https://www.devdofuturo.com/versionamento-semantico-o-que-e-e-como-aplicar">www.devdofuturo.com/versionamento-semantico-o-que-e-e-como-aplicar</a>
