@@ -13,3 +13,10 @@ O foco do projeto será implementar um controle de versão eficiente, que atenda
   <li>Defina os itens de configuração;</li>
   <li>Defina uma estratégia para tags e liberação de releases.</li>
 </ul>
+
+<hr/>
+Estórias de usuário: 
+<br/>
+Como um administrador de configuração, eu quero configurar o repositório no GitHub, para que as alterações sejam rastreadas e versionadas adequadamente.
+Como um desenvolvedor, eu quero utilizar um fluxo de trabalho padronizado no Git, para que o desenvolvimento seja organizado e as entregas controladas.
+Como um gestor, eu quero criar releases versionadas, para que o histórico de versões esteja alinhado às entregas do projeto.
